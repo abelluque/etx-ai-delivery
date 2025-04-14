@@ -174,3 +174,26 @@ seed_examples:
           What is the status of the cloud controller manager operator for IBM Power® Virtual Server?
         answer: |
           The Cloud Controller Manager Operator is available as a Technology Preview for IBM Power® Virtual Server.
+  - context: |
+        If you used OpenShift Container Platform 3 and want to try OpenShift Container Platform 4, you need to understand how different OpenShift Container Platform 4 is. 
+        OpenShift Container Platform 4 weaves the Operators that package, deploy, and manage Kubernetes applications and the operating system that the platform runs on,
+        Red Hat Enterprise Linux CoreOS (RHCOS), together seamlessly. Instead of deploying machines and configuring their operating systems so that you can install OpenShift Container Platform on them, 
+        the RHCOS operating system is an integral part of the OpenShift Container Platform cluster. Deploying the operating system for the cluster machines is part of the installation process for OpenShift Container Platform. 
+        See Differences between OpenShift Container Platform 3 and 4.
+        Because you need to provision machines as part of the OpenShift Container Platform cluster installation process, you cannot upgrade an OpenShift Container Platform 3 cluster to OpenShift Container Platform 4.
+        Instead, you must create a new OpenShift Container Platform 4 cluster and migrate your OpenShift Container Platform 3 workloads to them.
+    questions_and_answers:
+      - question: |
+            What need to understand the Difference between Container Platform 3 and OpenShift Container Platform 4?
+        answer: |
+            you need to understand how different OpenShift Container Platform 4 is. 
+            OpenShift Container Platform 4 weaves the Operators that package, deploy, and manage Kubernetes applications and the operating system that the platform runs on,
+            Red Hat Enterprise Linux CoreOS (RHCOS)
+      - question: |
+            What is a part of deploying OpenShift Container Platform?
+        answer: |
+            Deploying the operating system for the cluster machines is part of the installation process for OpenShift Container Platform.
+      - question: |
+            How to migrate from Container Platform 3 to Container Platform 4
+        answer: |
+            You must create a new OpenShift Container Platform 4 cluster and migrate your OpenShift Container Platform 3 workloads to them.
