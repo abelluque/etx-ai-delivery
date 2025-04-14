@@ -4,18 +4,24 @@ domain: Installing Red Hat OpenShift 4.18
 document_outline: A Guide to install OpenShift on multiple different platforms and post install configurations
 seed_examples:
   - context: |
-      
+      The OpenShift Container Platform installation program offers four methods for deploying a cluster which are detailed in the following list:
+      Interactive: You can deploy a cluster with the web-based Assisted Installer. This is an ideal approach for clusters with networks connected to the internet. The Assisted Installer is the easiest way to install OpenShift Container Platform, it provides smart defaults, and it performs pre-flight validations before installing the cluster. It also provides a RESTful API for automation and advanced configuration scenarios.
+      Local Agent-based: You can deploy a cluster locally with the Agent-based Installer for disconnected environments or restricted networks. It provides many of the benefits of the Assisted Installer, but you must download and configure the Agent-based Installer first. Configuration is done with a command-line interface. This approach is ideal for disconnected environments.
+      Automated: You can deploy a cluster on installer-provisioned infrastructure. The installation program uses each cluster host’s baseboard management controller (BMC) for provisioning. You can deploy clusters in connected or disconnected environments.
+      Full control: You can deploy a cluster on infrastructure that you prepare and maintain, which provides maximum customizability. You can deploy clusters in connected or disconnected environments.
     questions_and_answers:
       - question: |
-          
+          What are the options to OpenShift installation program offer to deploy a cluster?
         answer: |
-          
+          Interactive: You can deploy a cluster with the web-based Assisted Installer
+          Local Agent-based: You can deploy a cluster locally
+          Automated: You can deploy a cluster on installer-provisioned infrastructure.
+          Full control: You can deploy a cluster on infrastructure that you prepare and maintain, which provides maximum customizability.
       - question: |
-          
+          When is recomended use Local Agent-based?
         answer: |
-          
+          When You need deploy a cluster locally with the Agent-based Installer for disconnected environments or restricted networks.
       - question: |
-          How far does the Phoenix constellation stretch?
+          What method provides maximum customizability?
         answer: |
-          The phoenix constellation stretches from roughly −39° to −57°
-          declination, and from 23.5h to 2.5h of right ascension.
+          Full control: You can deploy clusters in connected or disconnected environments.
