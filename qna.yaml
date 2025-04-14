@@ -84,42 +84,6 @@ seed_examples:
           Bare metal (64-bit ARM)
           vSphere
           IBM Cloud®
-      - question: |
-          What install platforms are supported by restricted network?
-        answer: |
-          The following platforms are supported by restricted network:
-          AWS (64-bit x86)
-          AWS (64-bit ARM)
-          Azure (64-bit x86)
-          Azure (64-bit ARM)
-          Azure Stack Hub
-          GCP (64-bit x86)
-          GCP (64-bit ARM)
-          Nutanix
-          Bare metal (64-bit x86)
-          Bare metal (64-bit ARM)
-          vSphere
-          IBM Cloud®
-          IBM Z®
-          IBM Power®
-          IBM Power® Virtual Server
-      - question: |
-          What install platforms are supported by custom and restricted network?
-        answer: |
-          The following platforms are supported by custom and restricted network:
-          AWS (64-bit x86)
-          AWS (64-bit ARM)
-          Azure (64-bit x86)
-          Azure (64-bit ARM)
-          Azure Stack Hub
-          GCP (64-bit x86)
-          GCP (64-bit ARM)
-          Nutanix
-          Bare metal (64-bit x86)
-          Bare metal (64-bit ARM)
-          vSphere
-          IBM Cloud®
-          IBM Power® Virtual Server
   - context: |
       The following table lists the minimum requirements for the Red Hat OpenShift 4.18 installation program. The requirements are based on the number of nodes in the cluster. The requirements are for the control plane and worker nodes. The requirements for the Red Hat OpenShift 4.18 installation program are as follows:
 
@@ -165,14 +129,6 @@ seed_examples:
           What is the minimum memory for 9 node count?
         answer: |
           The minimum memory for 9 node count is 128 GiB.
-      - question: |
-          What is the minimum disk space for 15 node count?
-        answer: |
-          The minimum disk space for 15 node count is 200 GiB.
-      - question: |
-          What is the minimum disk space for 47 node count?
-        answer: |
-          The minimum disk space for 47 node count is 200 GiB.
   - context: |
       The Cloud Controller Manager Operator provides features for the CloudControllerManager capability.
 
@@ -218,11 +174,3 @@ seed_examples:
           What is the status of the cloud controller manager operator for IBM Power® Virtual Server?
         answer: |
           The Cloud Controller Manager Operator is available as a Technology Preview for IBM Power® Virtual Server.
-      - question: |
-          What is the default for the Cloud Controller Manager Operator?
-        answer: |
-          By default, the Cloud Controller Manager Operator exposes Prometheus metrics through the metrics service.
-      - question: |
-          What is the install method for the Cloud Controller Manager Operator?
-        answer: |
-          The Cloud Controller Manager Operator is installed via the Cluster Version Operator (CVO).
