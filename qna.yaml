@@ -25,3 +25,204 @@ seed_examples:
           What method provides maximum customizability?
         answer: |
           Full control: You can deploy clusters in connected or disconnected environments.
+  - context: |
+      Not all installation options are supported for all platforms, as shown in the following tables. A checkmark indicates that the option is supported and links to the relevant section.
+
+      |                                   | AWS (64-bit x86)   | AWS (64-bit ARM)   | Azure (64-bit x86)   | Azure (64-bit ARM)   | Azure Stack Hub   | GCP (64-bit x86)   | GCP (64-bit ARM)   | Nutanix   | RHOSP   | Bare metal (64-bit x86)   | Bare metal (64-bit ARM)   | vSphere   | IBM Cloud®   | IBM Z®   | IBM Power®   | IBM Power® Virtual Server   |
+      |-----------------------------------|--------------------|--------------------|----------------------|----------------------|-------------------|--------------------|--------------------|-----------|---------|---------------------------|---------------------------|-----------|--------------|----------|--------------|-----------------------------|
+      | Default                           | ✓                  | ✓                  | ✓                    | ✓                    | ✓                 | ✓                  | ✓                  | ✓         |         | ✓                         | ✓                         | ✓         | ✓            |          |              |                             |
+      | Custom                            | ✓                  | ✓                  | ✓                    | ✓                    | ✓                 | ✓                  | ✓                  | ✓         | ✓       |                           |                           | ✓         | ✓            |          |              | ✓                           |
+      | Network customization             | ✓                  | ✓                  | ✓                    | ✓                    | ✓                 | ✓                  | ✓                  |           |         | ✓                         | ✓                         | ✓         | ✓            |          |              |                             |
+      | Restricted network                | ✓                  | ✓                  | ✓                    | ✓                    |                   | ✓                  | ✓                  | ✓         | ✓       | ✓                         | ✓                         | ✓         | ✓            |          |              | ✓                           |
+    questions_and_answers:
+      - question: |
+          What install platforms are supported by default?
+        answer: |
+          The following platforms are supported by default:
+          AWS (64-bit x86)
+          AWS (64-bit ARM)
+          Azure (64-bit x86)
+          Azure (64-bit ARM)
+          Azure Stack Hub
+          GCP (64-bit x86)
+          GCP (64-bit ARM)
+          Nutanix
+          Bare metal (64-bit x86)
+          Bare metal (64-bit ARM)
+          vSphere
+          IBM Cloud®
+      - question: |
+          What install platforms are supported by custom?
+        answer: |
+          The following platforms are supported by custom:
+          AWS (64-bit x86)
+          AWS (64-bit ARM)
+          Azure (64-bit x86)
+          Azure (64-bit ARM)
+          Azure Stack Hub
+          GCP (64-bit x86)
+          GCP (64-bit ARM)
+          Nutanix
+          Bare metal (64-bit x86)
+          vSphere
+          IBM Cloud®
+          IBM Z®
+          IBM Power®
+          IBM Power® Virtual Server
+      - question: |
+          What install platforms are supported by network customization?
+        answer: |
+          The following platforms are supported by network customization:
+          AWS (64-bit x86)
+          AWS (64-bit ARM)
+          Azure (64-bit x86)
+          Azure (64-bit ARM)
+          Azure Stack Hub
+          GCP (64-bit x86)
+          GCP (64-bit ARM)
+          Bare metal (64-bit x86)
+          Bare metal (64-bit ARM)
+          vSphere
+          IBM Cloud®
+      - question: |
+          What install platforms are supported by restricted network?
+        answer: |
+          The following platforms are supported by restricted network:
+          AWS (64-bit x86)
+          AWS (64-bit ARM)
+          Azure (64-bit x86)
+          Azure (64-bit ARM)
+          Azure Stack Hub
+          GCP (64-bit x86)
+          GCP (64-bit ARM)
+          Nutanix
+          Bare metal (64-bit x86)
+          Bare metal (64-bit ARM)
+          vSphere
+          IBM Cloud®
+          IBM Z®
+          IBM Power®
+          IBM Power® Virtual Server
+      - question: |
+          What install platforms are supported by custom and restricted network?
+        answer: |
+          The following platforms are supported by custom and restricted network:
+          AWS (64-bit x86)
+          AWS (64-bit ARM)
+          Azure (64-bit x86)
+          Azure (64-bit ARM)
+          Azure Stack Hub
+          GCP (64-bit x86)
+          GCP (64-bit ARM)
+          Nutanix
+          Bare metal (64-bit x86)
+          Bare metal (64-bit ARM)
+          vSphere
+          IBM Cloud®
+          IBM Power® Virtual Server
+  - context: |
+      The following table lists the minimum requirements for the Red Hat OpenShift 4.18 installation program. The requirements are based on the number of nodes in the cluster. The requirements are for the control plane and worker nodes. The requirements for the Red Hat OpenShift 4.18 installation program are as follows:
+
+      | Node count   | CPU cores   | Memory (GiB)   | Disk space (GiB)   |
+      |--------------|-------------|----------------|--------------------|
+      | 3            | 12          | 48             | 200                |
+      | 5            | 16          | 64             | 200                |
+      | 7            | 20          | 128            | 200                |
+      | 9            | 24          | 128            | 200                |
+      | 11           | 32          | 128            | 200                |
+      | 13           | 40          | 128            | 200                |
+      | 15           | 48          | 128            | 200                |
+      | 17           | 56          | 128            | 200                |
+      | 19           | 64          | 128            | 200                |
+      | 21           | 72          | 128            | 200                |
+      | 23           | 80          | 128            | 200                |
+      | 25           | 88          | 128            | 200                |
+      | 27           | 96          | 128            | 200                |
+      | 29           | 104         | 128            | 200                |
+      | 31           | 112         | 128            | 200                |
+      | 33           | 120         | 128            | 200                |
+      | 35           | 128         | 128            | 200                |
+      | 37           | 136         | 128            | 200                |
+      | 39           | 144         | 128            | 200                |
+      | 41           | 152         | 128            | 200                |
+      | 43           | 160         | 128            | 200                |
+      | 45           | 168         | 128            | 200                |
+      | 47
+    questions_and_answers:
+      - question: |
+          What are the minimum requirements for the Red Hat OpenShift 4.18 installation program?
+        answer: |
+          The minimum requirements for the Red Hat OpenShift 4.18 installation program are as follows:
+          Node count: 3
+          CPU cores: 12
+          Memory: 48 GiB
+          Disk space: 200 GiB
+      - question: |
+          What is the minimum CPU cores for 5 node count?
+        answer: |
+          The minimum CPU cores for 5 node count is 16.
+      - question: |
+          What is the minimum memory for 9 node count?
+        answer: |
+          The minimum memory for 9 node count is 128 GiB.
+      - question: |
+          What is the minimum disk space for 15 node count?
+        answer: |
+          The minimum disk space for 15 node count is 200 GiB.
+      - question: |
+          What is the minimum disk space for 47 node count?
+        answer: |
+          The minimum disk space for 47 node count is 200 GiB.
+  - context: |
+      The Cloud Controller Manager Operator provides features for the CloudControllerManager capability.
+
+      Note
+
+      Currently, disabling the CloudControllerManager capability is not supported on all platforms.
+
+      You can determine if your cluster supports disabling the CloudControllerManager capability by checking values in the installation configuration (install-config.yaml) file for your cluster.
+
+      In the install-config.yaml file, locate the platform parameter.
+
+      - If the value of the platform parameter is Baremetal or None, you can disable the CloudControllerManager capability on your cluster.
+      - If the value of the platform parameter is External, locate the platform.external.cloudControllerManager parameter. If the value of the platform.external.cloudControllerManager parameter is None, you can disable the CloudControllerManager capability on your cluster.
+
+      Important
+
+      If these parameters contain any other values than those listed, you cannot disable the CloudControllerManager capability on your cluster.
+
+      Note
+
+      The status of this Operator is General Availability for Amazon Web Services (AWS), Google Cloud Platform (GCP), IBM Cloud®, global Microsoft Azure, Microsoft Azure Stack Hub, Nutanix, Red Hat OpenStack Platform (RHOSP), and VMware vSphere.
+
+      The Operator is available as a Technology Preview for IBM Power® Virtual Server.
+
+      The Cloud Controller Manager Operator manages and updates the cloud controller managers deployed on top of OpenShift Container Platform. The Operator is based on the Kubebuilder framework and controller-runtime libraries. It is installed via the Cluster Version Operator (CVO).
+
+      It contains the following components:
+
+      - Operator
+      - Cloud configuration observer
+
+      By default, the Operator exposes Prometheus metrics through the metrics service.
+    questions_and_answers:
+      - question: |
+          What is the Cloud Controller Manager Operator?
+        answer: |
+          The Cloud Controller Manager Operator manages and updates the cloud controller managers deployed on top of OpenShift Container Platform. The Operator is based on the Kubebuilder framework and controller-runtime libraries.
+      - question: |
+          What is the status of this Operator?
+        answer: |
+          The status of this Operator is General Availability for Amazon Web Services (AWS), Google Cloud Platform (GCP), IBM Cloud®, global Microsoft Azure, Microsoft Azure Stack Hub, Nutanix, Red Hat OpenStack Platform (RHOSP), and VMware vSphere.
+      - question: |
+          What is the status of the cloud controller manager operator for IBM Power® Virtual Server?
+        answer: |
+          The Cloud Controller Manager Operator is available as a Technology Preview for IBM Power® Virtual Server.
+      - question: |
+          What is the default for the Cloud Controller Manager Operator?
+        answer: |
+          By default, the Cloud Controller Manager Operator exposes Prometheus metrics through the metrics service.
+      - question: |
+          What is the install method for the Cloud Controller Manager Operator?
+        answer: |
+          The Cloud Controller Manager Operator is installed via the Cluster Version Operator (CVO).
