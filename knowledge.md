@@ -1,4 +1,10 @@
-Address: Dgo. Martinto 1833 Lanús Phone:  +54 11 3535 3617 Cell Phone: +54 116-147-6626 E-mail: abel.luque@gmail.com
+Address: Dgo. Martinto 1833 Lanús 
+
+Phone:  +54 11 3535 3617 
+
+Cell Phone: +54 116-147-6626 
+
+E-mail: abel.luque@gmail.com
 
 ## Abel Luque
 
@@ -52,8 +58,8 @@ Java  WEB J2EE developer
 
 <> Hyperlinks dont work
  
-- ● Developing Applications for the Java EE Platform (FJ-310-EE5)
-- ● Web Component Development with Servlet and JSP Technologies (SL-314-EE5)
+- Developing Applications for the Java EE Platform (FJ-310-EE5)
+- Web Component Development with Servlet and JSP Technologies (SL-314-EE5)
 
 2009 - 2009        Teracode sistemas
 
@@ -129,37 +135,35 @@ Cap. Fed.
 
 ## Tecnologies
 
-- · Microservices
-- · Hybrid Cloud (RedHat OpenShift)
-- · Docker
-- · Kubernetes
-- · Design patterns
-
-•
+- Microservices
+- Hybrid Cloud (RedHat OpenShift)
+- Docker
+- Kubernetes
+- Design patterns
 
 CI/CD
 
-- · DevOps
-- · EIP (Enterprise Integration Patterns)
-- · 3scale (API Manager)
-- · Pipelines
-- · Jenkins
-- · Web Services (Soap - Rest)
-- · JRE 1,8
-- · Eclipse
-- · Hibernate
-- · Groovy
-- · Jboss-Fuse
-- · Apache Camel
-- · Jboss-EAP 6.x &amp; 7.x
-- · Jboss-Datagrid 7.x
-- · Decition Manager (jboss-drool)
-- · JBPM
-- · BRMS
-- · Vertex
-- · OpenShift 3.6
-- · Spring-boot
-- · Apache AMQ (JMS)
+- DevOps
+- EIP (Enterprise Integration Patterns)
+- 3scale (API Manager)
+- Pipelines
+- Jenkins
+- Web Services (Soap - Rest)
+- JRE 1,8
+- Eclipse
+- Hibernate
+- Groovy
+- Jboss-Fuse
+- Apache Camel
+- Jboss-EAP 6.x &amp; 7.x
+- Jboss-Datagrid 7.x
+- Decition Manager (jboss-drool)
+- JBPM
+- BRMS
+- Vertex
+- OpenShift 3.6
+- Spring-boot
+- Apache AMQ (JMS)
 
 Performance analysis, and integration.
 
@@ -181,15 +185,15 @@ Cap. Fed.
 
 ## Tecnologies
 
-- · Maven
-- · Web Services
-- · JRE 1,7
-- · Eclipse
-- · Hibernate
-- · Design patterns
-- · Postgres
-- · Git
-- · Jenkins
+- Maven
+- Web Services
+- JRE 1,7
+- Eclipse
+- Hibernate
+- Design patterns
+- Postgres
+- Git
+- Jenkins
 
 Development leader in the implementation of a platform for digital channels for banking. Technical direction of the project, estimates, analysis of impact on the product for the correct implementation, task tracking, reports to the Project Manager .
 
@@ -201,19 +205,19 @@ Cap. Fed.
 
 ## Tecnologies
 
-- · Maven
-- · Web Services
-- · JRE 1,7
-- · Eclipse
-- · Hibernate
-- · JPA 2,1
-- · Struts 2
-- · Spring
-- · Design patterns
-- · Postgres
-- · NodeJS
-- · MongoDB
-- · Git
+- Maven
+- Web Services
+- JRE 1,7
+- Eclipse
+- Hibernate
+- JPA 2,1
+- Struts 2
+- Spring
+- Design patterns
+- Postgres
+- NodeJS
+- MongoDB
+- Git
 
 Development of features and improvements, analysis of possible improvements in the code of the applications.
 
@@ -237,34 +241,34 @@ Investigation of needs for clients.
 
 ## Tecnologies
 
-- · EJB 3,0
-- · Android SDK
-- · Web Services REST
-- · Maven
-- · Web Services
-- · JRE 1,6
-- · Eclipse
-- · Hibernate
+- EJB 3,0
+- Android SDK
+- Web Services REST
+- Maven
+- Web Services
+- JRE 1,6
+- Eclipse
+- Hibernate
 
 •
 
 JPA 2,1
 
-- · JPQL
-- · Oracle 10g
-- · Adobe Flex
-- · JSF 1.2 y 2.0
-- · ZK
-- · Struts 2
-- · Spring
-- · Design patterns
-- · IBM Websphere Application server 8.0
-- · GlassFish 3.1.1
-- · Jboss 6 y 7
-- · MS SQLServer 2008
-- · Tomcat 6 y 7
-- · Oracle 10g
-- · Enterprise Architect
+- JPQL
+- Oracle 10g
+- Adobe Flex
+- JSF 1.2 y 2.0
+- ZK
+- Struts 2
+- Spring
+- Design patterns
+- IBM Websphere Application server 8.0
+- GlassFish 3.1.1
+- Jboss 6 y 7
+- MS SQLServer 2008
+- Tomcat 6 y 7
+- Oracle 10g
+- Enterprise Architect
 
 Analysis, construction, monitoring and generation of the Architecture documentation and technical analysis of the Use Cases of the different applications built in the Software Factory.
 
@@ -274,22 +278,22 @@ Analysis, construction, monitoring and generation of the Architecture documentat
 
 ## Java Semi-Senior Programmer analyst
 
-- ● EJB 3,0
-- ● Maven
-- ● Swing
-- ● Drools 5.4.0
-- ● Web Services
-- ● JRE 1,6
-- ● Jboss 6,0
-- ● Eclipse
-- ● Netbeans
-- ● Hibernate
-- ● JPA 2,1
-- ● JPQL
-- ● Postgres
-- ● Oracle 11g
-- ● Sybase 12
-- ● Linux
+- EJB 3,0
+- Maven
+- Swing
+- Drools 5.4.0
+- Web Services
+- JRE 1,6
+- Jboss 6,0
+- Eclipse
+- Netbeans
+- Hibernate
+- JPA 2,1
+- JPQL
+- Postgres
+- Oracle 11g
+- Sybase 12
+- Linux
 
 Analysis, construction and monitoring of use cases for a retail application for a leading appliance company in the market.
 
@@ -299,21 +303,21 @@ Cap. Fed.
 
 ## Java Developer Semi-Sr.
 
-- ● JSF
-- ● Spring
-- ● JRE 1,6
-- ● Rich Faces (WebSphere)
-- ● Tomahawk
-- ● Facelets
-- ● A4J
-- ● Eclipse
-- ● iReports (Jasper report)
-- ● Hibernate
-- ● Oracle 11g
-- ● TomCat 6,0 (Desarrollo)
-- ● Oracle Weblogic (Test, Pre-productivo y Productivo)
-- ● Linux, ShellScript
-- ● SVN
+- JSF
+- Spring
+- JRE 1,6
+- Rich Faces (WebSphere)
+- Tomahawk
+- Facelets
+- A4J
+- Eclipse
+- iReports (Jasper report)
+- Hibernate
+- Oracle 11g
+- TomCat 6,0 (Desarrollo)
+- Oracle Weblogic (Test, Pre-productivo y Productivo)
+- Linux, ShellScript
+- SVN
 
 Development of a governmental application of dangerous cargo transportation permits. Being the manager of the deploys to the different environments as well as monitoring and testing of bugs
 
@@ -323,11 +327,11 @@ Cap. Fed.
 
 ## Developer  Java Sr.
 
-- ● Swing
-- ● Struts
-- ● WSAD (WebSphere)
-- ● Eclipse
-- ● Technical design
+- Swing
+- Struts
+- WSAD (WebSphere)
+- Eclipse
+- Technical design
 
 Maintenance, control and monitoring of a management application of an insurance company, client Zurich (Info2000 Maxx Release 3 and Release 0 performing tasks of programming and analysis of technical documents, using: Websphere Application Studio Developer, Websphere Application Server, client AS / 400, j2ee 1.4, Swing, Grounds Framework (owner of Accenture)
 
@@ -337,11 +341,11 @@ Cap. Fed.
 
 ## Java Jr. Developer
 
-- ● Swing
-- ● Struts
-- ● WSAD (WebSphere)
-- ● Eclipse
-- ● Technical design
+- Swing
+- Struts
+- WSAD (WebSphere)
+- Eclipse
+- Technical design
 
 Maintenance, control and monitoring of a management application of an insurance company, client Zurich (Info2000 Maxx Release 3 and Release 0 performing tasks of programming and analysis of technical documents, using: Websphere Application Studio Developer, Websphere Application Server, client AS / 400, j2ee 1.4, Swing, Grounds Framework (owner of Accenture)
 
