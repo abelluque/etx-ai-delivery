@@ -2,3 +2,40 @@ version: 1
 created_by: etx-team-6
 domain: candidate, techicals skills
 document_outline: List a education, expirience for techicals candidate
+seed_examples:
+  - context: |
+      Address: Dgo. Martinto 1833 Lanús 
+
+      Phone:  +54 11 3535 3617 
+
+      Cell Phone: +54 116-147-6626 
+
+      E-mail: abel.luque@gmail.com
+
+      ## Abel Luque
+
+      ## Personal Information
+
+      Marital status: Single
+
+      Nationality: Argentinian
+
+      Date of birth : 16 Dec 1980
+
+      City of birth: Cap. Fed.
+
+      CUIL: 20-28692303-9
+    questions_and_answers:
+      - question: |
+          What is Abel's address
+        answer: |
+          Abel's address is Dgo. Martinto 1833 Lanús.
+      - question: |
+          Is Abel married?
+        answer: |
+          No Abel is not married, he is single.
+      - question: |
+          How far does the Phoenix constellation stretch?
+        answer: |
+          The phoenix constellation stretches from roughly −39° to −57°
+          declination, and from 23.5h to 2.5h of right ascension.
