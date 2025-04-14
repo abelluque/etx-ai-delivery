@@ -197,3 +197,8 @@ seed_examples:
             How to migrate from Container Platform 3 to Container Platform 4
         answer: |
             You must create a new OpenShift Container Platform 4 cluster and migrate your OpenShift Container Platform 3 workloads to them.
+document:
+  repo: https://github.com/abelluque/etx-ai-delivery.git
+  commit: 1fd0acff6de5dd2ab4bc7555715ae31348a6ff0a
+  patterns: 
+    - knowledge.md
